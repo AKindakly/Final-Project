@@ -1,8 +1,22 @@
+import React from "react";
+
+import Logo from "./header/Logo.jsx";
+import Nav from "./header/Nav.jsx";
+import Intro from "./main-page/Intro.jsx";
+
 function App() {
     return (
         <>
-            <h1>Hello World this is the hotel website</h1>
-            <img src="./hotel1.jpg" alt="" />
+            <div>
+                <div className="site-header">
+                    <div className="header-cont">
+                        <Logo />
+
+                        <Nav />
+                    </div>
+                </div>
+                <Intro />
+            </div>
         </>
     );
 }
