@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: sans-serif, "Roboto", arial;
 }
 
 /* ////////////////////// Intro Css //////////////////////*/
@@ -32,7 +33,7 @@ body {
 /* ////////////////////// Header Css //////////////////////*/
 
 .site-header {
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -47,6 +48,7 @@ body {
     background-color: black;
     color: white;
     margin-top: 215px;
+    margin-left: -12px;
     padding: 0 25px;
     padding-top: 70px;
     border: 2px solid;
@@ -72,7 +74,7 @@ body {
     border-radius: 50px;
     overflow: hidden;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    border: 5px solid #ffffffbd;
+    border: 3px solid #ffffffbd;
     font-size: 18px;
 }
 
@@ -97,7 +99,6 @@ body {
     text-decoration: none;
     color: #ffffff94;
     text-transform: uppercase;
-    font-weight: 600;
     transition: 0.5s;
 }
 
@@ -107,7 +108,6 @@ body {
 
 .nav input {
     width: 32px;
-    height: 32px;
     cursor: pointer;
     opacity: 0;
 }
@@ -142,4 +142,293 @@ body {
 
 .nav input:checked ~ span:nth-child(3) {
     transform: translateY(0) rotate(45deg);
+}
+
+/* ////////////////////// Checker Css //////////////////////*/
+
+.checker {
+    margin: 0 150px;
+    margin-top: -45px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.checker-cont {
+    display: flex;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.checker-inputs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    align-content: center;
+}
+
+input {
+    width: 100%;
+    padding: 11px 5px;
+    color: white;
+    background: #242e5a;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.checker .search {
+    width: 20%;
+    padding: 20px;
+    margin-top: 18px;
+}
+
+.checker .search input {
+    font-size: 19px;
+    border: 1px solid white;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+/* ////////////////////// Welcome Css //////////////////////*/
+
+.welcome {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    margin: 0 7%;
+}
+
+.welcome-txts-cont {
+    padding-right: 70px;
+}
+
+.welcome-txt1 {
+    font-size: 40px;
+}
+
+.welcome-imgs-cont {
+    position: relative;
+}
+
+.welcome-img1 {
+    height: 450px;
+    width: 725px;
+
+    margin-top: 35px;
+}
+
+.welcome-img2 {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    border: 10px solid white;
+    position: absolute;
+    right: 74%;
+    top: 70%;
+}
+
+/* ////////////////////// Features Css //////////////////////*/
+
+.features {
+    display: flex;
+    align-items: center;
+    margin: 17% 11% 11%;
+}
+
+.features-cont {
+    text-align: center;
+    margin: 0 35px;
+    padding: 0 25px;
+}
+
+.features-cont img {
+    width: 125px;
+    height: 125px;
+}
+
+.features-cont p {
+    font-size: 24px;
+}
+
+/* ////////////////////// Photos Css //////////////////////*/
+
+.RoomsPhotos {
+    position: relative;
+    background-color: #1a1a1a;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 63%;
+    transform: translate(0, -50%);
+    left: 65px;
+    font-size: 45px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 63%;
+    transform: translate(0, -50%);
+    right: 65px;
+    font-size: 45px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rooms-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dots {
+    margin: 0px 8px;
+    margin-top: -100px;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+}
+
+.rooms-photos {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.photo {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.rooms-txt {
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    margin: 0 140px;
+}
+
+.rooms-txt h2 {
+    font-size: 40px;
+}
+
+/* ////////////////////// Restaurant Css //////////////////////*/
+
+.restaurant {
+    display: flex;
+    margin: 90px 7%;
+}
+
+.restaurant-left-cont {
+    min-width: 700px;
+}
+
+.restaurant-left-cont img {
+    height: 600px;
+    width: 650px;
+    object-fit: cover;
+}
+
+.restaurant-right-cont {
+    margin: 65px 35px;
+    line-height: 30px;
+}
+
+.restaurant-right-cont h2 {
+    font-size: 36px;
+}
+
+.restaurant-tabs {
+    margin-top: 35px;
+    line-height: 25px;
+}
+
+.restaurant-tabs h3 {
+    cursor: pointer;
+}
+
+.restaurant-tabs p {
+    box-shadow: 0 13px 43px 0 rgb(0 0 0 / 27%);
+    padding: 15px 25px;
+    margin-bottom: 35px;
+}
+
+/* ////////////////////// Pool Css //////////////////////*/
+
+.pool {
+    background-image: url("../public/pool.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    margin: 18% 0 10%;
+}
+
+.pool-text {
+    background: #1a1a1a;
+    padding: 10% 45px 0;
+    width: 22%;
+    height: 440px;
+    position: absolute;
+    top: -13%;
+    color: white;
+    left: 50%;
+}
+
+.pool-text h2 {
+    font-size: 32px;
+}
+.pool-text p {
+    margin: 50px 0 0;
+}
+
+/*  */
+
+.footer {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.footer-cont1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-cont1 ul {
+    list-style: none;
+}
+
+.footer-cont1 a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.footer-cont1 a:hover {
+    color: white;
+}
+
+.footer-cont1-block {
+    display: block;
+    font-style: italic;
+    color: white;
+}
+
+.footer-cont2 p {
+    padding: 9px 20px 14px;
+    margin: 0;
+    font-size: 13px;
 }
