@@ -3,7 +3,7 @@ import "../../index.css";
 
 import { useState } from "react";
 
-const Resturant = () => {
+const Restaurant = () => {
     const [is1Visible, setIs1Visible] = useState(false);
     const [is2Visible, setIs2Visible] = useState(false);
     const [is3Visible, setIs3Visible] = useState(false);
@@ -32,10 +32,10 @@ const Resturant = () => {
 
     return (
         <section className="restaurant">
-            <div class="restaurant-left-cont">
+            <div className="restaurant-left-cont">
                 <img src="../restaurant.jpg" alt="" />
             </div>
-            <div class="restaurant-right-cont">
+            <div className="restaurant-right-cont">
                 <div>
                     <h2>Restaurants & Bars</h2>
                     <p>
@@ -95,4 +95,4 @@ const Resturant = () => {
     );
 };
 
-export default Resturant;
+export default Restaurant;

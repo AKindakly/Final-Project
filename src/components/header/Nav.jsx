@@ -1,18 +1,19 @@
 import React from "react";
+
 import "../../index.css";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
         <div>
-            <div class="nav">
+            <div className="nav">
                 <input type="checkbox" />
                 <span></span>
                 <span></span>
-                <div class="menu">
+                <div className="menu">
                     <li>
-                        <a href="/">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
                         <a href="/about" target="_blank">
@@ -20,9 +21,7 @@ const Nav = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="/rooms" target="_blank">
-                            Rooms
-                        </a>
+                        <Link to="/rooms">Rooms</Link>
                     </li>
                     <li>
                         <a href="/contact" target="_blank">

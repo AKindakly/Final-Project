@@ -3,9 +3,9 @@ import "../../index.css";
 
 const Pool = () => {
     return (
-        <section class="pool">
+        <section className="pool">
             <div>
-                <div class="pool-text">
+                <div className="pool-text">
                     <div>
                         <h2>Pool & Yoga</h2>
                     </div>

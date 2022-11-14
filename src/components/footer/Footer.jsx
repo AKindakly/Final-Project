@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <footer className="footer">
-                <div class="footer-cont1">
+                <div className="footer-cont1">
                     <div>
                         <ul>
                             <li>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <p>
-                            <span class="footer-cont1-block">Address:</span>
+                            <span className="footer-cont1-block">Address:</span>
                             <span>
                                 Street Strasse 123, <br />
                                 Berlin 12345
@@ -30,15 +30,15 @@ const Footer = () => {
                     </div>
                     <div>
                         <p>
-                            <span class="footer-cont1-block">Phone:</span>
+                            <span className="footer-cont1-block">Phone:</span>
                             <span> +49 123 12345</span>
 
-                            <span class="footer-cont1-block">Email:</span>
+                            <span className="footer-cont1-block">Email:</span>
                             <span> info@domain.com</span>
                         </p>
                     </div>
                 </div>
-                <div class="footer-cont2">
+                <div className="footer-cont2">
                     <hr></hr>
                     <p>Copyright &copy; All rights reserved 2022</p>
                 </div>
