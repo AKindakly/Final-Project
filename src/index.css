@@ -630,3 +630,92 @@ body {
     margin-bottom: 90px;
     justify-content: center;
 }
+
+/* /////////////////////////////// AboutUs Css ///////////////////////////////*/
+/* ////////////////////// AboutUsTxt Css //////////////////////*/
+.aboutus-txt {
+    text-align: center;
+    margin: 100px 100px 130px;
+}
+
+.aboutus-txt h2 {
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.aboutus-txt p {
+    margin: 45px 115px;
+}
+
+.aboutus-txt-last {
+    display: flex;
+}
+
+/* ////////////////////// AboutUsVid Css //////////////////////*/
+.aboutus-vid {
+    background-image: url(../public/video.jpg);
+    position: relative;
+    background-size: cover;
+    min-height: 550px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.aboutus-vid-btn {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    align-items: center;
+}
+
+.aboutus-vid-btn-sml {
+    width: 125px;
+    margin-left: 25px;
+}
+
+/* ////////////////////// AboutUsStaff Css //////////////////////*/
+.aboutus-staff-txt {
+    text-align: center;
+    margin: 100px 100px 50px;
+}
+
+.aboutus-staff-txt h2 {
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.aboutus-staff-txt p {
+    margin: 45px 115px;
+}
+
+.aboutus-staff-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 150px;
+}
+
+.aboutus-staff-cards-cont {
+    margin: 45px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.aboutus-staff-cards img {
+    width: 300px;
+}
+
+.aboutus-staff-cards span {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 9px 25px;
+}
+
+.aboutus-staff-cards p {
+    font-size: 20px;
+}

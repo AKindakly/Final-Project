@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "../../index.css";
 
 const Welcome = () => {
@@ -21,7 +23,7 @@ const Welcome = () => {
                         Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum dolore eu fugiat nulla pariatur.
                         <br />
-                        For More info. <a href="/about">Press Here</a>
+                        For More info. <Link to="/about">Press Here</Link>
                     </p>
                 </div>
             </div>
