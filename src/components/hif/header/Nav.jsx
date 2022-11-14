@@ -24,9 +24,7 @@ const Nav = () => {
                         <Link to="/rooms">Rooms</Link>
                     </li>
                     <li>
-                        <a href="/contact" target="_blank">
-                            Contact
-                        </a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </div>
             </div>
