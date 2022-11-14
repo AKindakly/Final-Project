@@ -1,6 +1,8 @@
 import React from "react";
 import "../../index.css";
 
+import { Link } from "react-router-dom";
+
 const Checker = () => {
     return (
         <>
@@ -16,7 +18,7 @@ const Checker = () => {
                             <input type="date" placeholder="CheckOut-Date" />
                         </div>
                         <div>
-                            <label>Adults:</label>
+                            <label>Guests:</label>
                             <input
                                 type="number"
                                 placeholder="0"
@@ -24,18 +26,10 @@ const Checker = () => {
                                 max="5"
                             />
                         </div>
-                        <div>
-                            <label>Children:</label>
-                            <input
-                                type="number"
-                                placeholder="0"
-                                min="0"
-                                max="3"
-                            />
-                        </div>
                     </div>
                     <div className="search">
-                        <input type="submit" value="Check" />
+                        {/* <input type="submit" value="Check" /> */}
+                        <Link to="/rooms">Check</Link>
                     </div>
                 </div>
             </section>

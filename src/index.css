@@ -2,36 +2,8 @@ body {
     margin: 0;
     font-family: sans-serif, "Roboto", arial;
 }
-
-/* ////////////////////// Intro Css //////////////////////*/
-
-.intro-big-cont {
-    background-image: url(../public/hotel2.jpg);
-    background-size: cover;
-    min-height: 750px;
-    width: 100%;
-}
-
-.intro-txt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 372px;
-    color: white;
-}
-
-.intro-txt h3 {
-    margin-bottom: 0px;
-    font-size: 21px;
-}
-
-.intro-txt h1 {
-    font-size: 56px;
-    line-height: 0;
-    font-style: italic;
-}
+/* /////////////////////////////// hif Css ///////////////////////////////*/
 /* ////////////////////// Header Css //////////////////////*/
-
 .site-header {
     position: absolute;
     width: 100%;
@@ -43,7 +15,6 @@ body {
 }
 
 /* ////////////////////// Logo Css //////////////////////*/
-
 .logo {
     background-color: black;
     color: white;
@@ -56,7 +27,6 @@ body {
 }
 
 /* ////////////////////// Nav Css //////////////////////*/
-
 .nav,
 .menu {
     display: flex;
@@ -144,17 +114,105 @@ body {
     transform: translateY(0) rotate(45deg);
 }
 
-/* ////////////////////// Checker Css //////////////////////*/
+/* ////////////////////// Intro Css //////////////////////*/
+.intro-big-cont {
+    background-image: url(../public/hotel2.jpg);
+    background-size: cover;
+    min-height: 750px;
+    width: 100%;
+}
 
+.intro-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 372px;
+    color: white;
+}
+
+.intro-txt h3 {
+    margin-bottom: 0px;
+    font-size: 21px;
+}
+
+.intro-txt h1 {
+    font-size: 56px;
+    line-height: 0;
+    font-style: italic;
+}
+
+/* ////////////////////// Footer Css //////////////////////*/
+.footer {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.footer-cont1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-cont1 ul {
+    list-style: none;
+}
+
+.footer-cont1 a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.footer-cont1 a:hover {
+    color: white;
+}
+
+.footer-cont1-block {
+    display: block;
+    font-style: italic;
+    color: white;
+}
+
+.footer-cont2 p {
+    padding: 9px 20px 14px;
+    margin: 0;
+    font-size: 13px;
+}
+/* /////////////////////////////// Main Css ///////////////////////////////*/
+/* ////////////////////// RoomsBtn Css //////////////////////*/
+.rooms-btn {
+    margin: -35px 448px 0px;
+    border: 3px solid white;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+.rooms-btn a {
+    text-decoration: none;
+    color: #ffffff94;
+    letter-spacing: 5px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.rooms-btn a:hover {
+    color: white;
+}
+
+/* ////////////////////// Checker Css //////////////////////*/
 .checker {
-    margin: 0 150px;
-    margin-top: -45px;
+    margin: -45px 260px 0px;
     border: 3px solid white;
     border-radius: 10px;
 }
 
 .checker-cont {
     display: flex;
+    align-items: center;
     background-color: #1a1a1a;
     color: white;
     text-align: center;
@@ -165,16 +223,17 @@ body {
 
 .checker-inputs {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
     align-content: center;
+    padding-bottom: 13px;
+    padding-top: 10px;
 }
 
 input {
     width: 100%;
     padding: 11px 5px;
-    color: white;
-    background: #242e5a;
+    text-align: center;
     border-radius: 10px;
     margin-top: 12px;
 }
@@ -196,8 +255,18 @@ input {
     cursor: pointer;
 }
 
-/* ////////////////////// Welcome Css //////////////////////*/
+.checker .search a {
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.checker .search a:hover {
+    color: white;
+}
 
+/* ////////////////////// Welcome Css //////////////////////*/
 .welcome {
     display: flex;
     padding-top: 50px;
@@ -235,7 +304,6 @@ input {
 }
 
 /* ////////////////////// Features Css //////////////////////*/
-
 .features {
     display: flex;
     align-items: center;
@@ -258,7 +326,6 @@ input {
 }
 
 /* ////////////////////// Photos Css //////////////////////*/
-
 .RoomsPhotos {
     position: relative;
     background-color: #1a1a1a;
@@ -323,7 +390,6 @@ input {
 }
 
 /* ////////////////////// Restaurant Css //////////////////////*/
-
 .restaurant {
     display: flex;
     margin: 90px 7%;
@@ -364,7 +430,6 @@ input {
 }
 
 /* ////////////////////// Pool Css //////////////////////*/
-
 .pool {
     background-image: url("../public/pool.jpg");
     background-repeat: no-repeat;
@@ -393,42 +458,91 @@ input {
     margin: 50px 0 0;
 }
 
-/*  */
-
-.footer {
-    background: #1a1a1a;
-    color: #fff;
-}
-
-.footer-cont1 {
+/* /////////////////////////////// Rooms Css ///////////////////////////////*/
+/* ////////////////////// SearchRooms Css //////////////////////*/
+.search-rooms {
+    background-color: #1a1a1a;
+    color: white;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 30px;
-    color: rgba(255, 255, 255, 0.7);
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: -30px 34% 0;
+    padding: 34px 0;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid white;
 }
 
-.footer-cont1 ul {
-    list-style: none;
+.rooms-form-select select {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
-.footer-cont1 a {
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
+.rooms-form-input {
+    margin-bottom: -10px;
 }
 
-.footer-cont1 a:hover {
+.rooms-form-input input {
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+.rooms-form-checkbox {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+/* ////////////////////// RoomsList Css //////////////////////*/
+.rooms-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    margin: 59px 120px;
+}
+
+.room-list-img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.room-list-cont {
+    position: relative;
+}
+
+.room-list-price {
+    position: absolute;
+    right: 0px;
+    top: 20%;
+    font-size: 26px;
+    color: white;
+    background-color: #00000075;
+    padding: 11px 29px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.room-list-name {
+    text-align: center;
+    font-size: 23px;
+    color: #ffffff94;
+    background-color: black;
+    padding: 17px;
+    margin: -6px 0 60px;
+    cursor: pointer;
+}
+
+.room-list-name:hover {
     color: white;
 }
 
-.footer-cont1-block {
-    display: block;
-    font-style: italic;
-    color: white;
-}
-
-.footer-cont2 p {
-    padding: 9px 20px 14px;
-    margin: 0;
-    font-size: 13px;
+.room-list-err {
+    text-align: center;
+    font-size: 25px;
+    margin: 80px 0;
 }

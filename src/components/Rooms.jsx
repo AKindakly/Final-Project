@@ -1,11 +1,16 @@
 import React from "react";
+import { withRoomConsumer } from "./context.js";
 
-import Logo from "./header/Logo.jsx";
-import Nav from "./header/Nav.jsx";
-import Intro from "./intro/Intro.jsx";
-import Footer from "./footer/Footer.jsx";
+import Logo from "./hif/header/Logo.jsx";
+import Nav from "./hif/header/Nav.jsx";
+import Intro from "./hif/intro/Intro.jsx";
+import Footer from "./hif/footer/Footer.jsx";
+import SearchRooms from "./rooms-page/SearchRooms";
+import RoomsList from "./rooms-page/RoomsList";
 
-const Rooms = () => {
+const Rooms = ({ context }) => {
+    const { sortedRooms, rooms } = context;
+
     return (
         <>
             <div>
@@ -17,6 +22,8 @@ const Rooms = () => {
                 </div>
                 <div>
                     <Intro />
+                    <SearchRooms rooms={rooms} />
+                    <RoomsList rooms={sortedRooms} />
                 </div>
                 <div>
                     <Footer />
@@ -26,4 +33,4 @@ const Rooms = () => {
     );
 };
 
-export default Rooms;
+export default withRoomConsumer(Rooms);
