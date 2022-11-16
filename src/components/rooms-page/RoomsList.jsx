@@ -1,20 +1,37 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../../index.css";
 
 const RoomsList = ({ rooms }) => {
     const Room = ({ room }) => {
-        const { name, images, price, capacity } = room;
+        const { id, name, mainImg, price, capacity } = room;
         // console.log("room",room);
         return (
             <div>
                 <div className="room-list-cont">
-                    <img className="room-list-img" src={images} alt="" />
+                    <div className="room-list-img-cont">
+                        <Link to={`/rooms/${id}`}>
+                            <img
+                                className="room-list-img"
+                                src={mainImg}
+                                alt=""
+                            />
+                        </Link>
+                    </div>
                     <span className="room-list-price">${price} per Night</span>
                 </div>
-                <p className="room-list-name">
-                    {name} / for {capacity} Guest/s
-                </p>
+                <Link to={`/rooms/${id}`}>
+                    <div className="room-list-name">
+                        <p>{name} </p>
+                        <h4>
+                            for {""}
+                            {capacity > 1
+                                ? `${capacity} People`
+                                : `${capacity} Person`}
+                        </h4>
+                    </div>
+                </Link>
             </div>
         );
     };

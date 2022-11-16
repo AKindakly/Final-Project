@@ -12,6 +12,10 @@ import room10 from "../roomsData/room10.jpg";
 import room11 from "../roomsData/room11.jpg";
 import room12 from "../roomsData/room12.jpg";
 
+import otherimg1 from "../roomsData/one1.jpg";
+import otherimg2 from "../roomsData/one2.jpg";
+import otherimg3 from "../roomsData/one3.jpg";
+
 export default [
     {
         id: "1",
@@ -21,7 +25,12 @@ export default [
         price: 60,
         capacity: 1,
         pets: false,
-        images: room1,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        mainImg: room1,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "2",
@@ -31,7 +40,13 @@ export default [
         price: 60,
         capacity: 1,
         pets: false,
-        images: room2,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room2,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "3",
@@ -41,7 +56,13 @@ export default [
         price: 60,
         capacity: 1,
         pets: true,
-        images: room3,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room3,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "4",
@@ -51,7 +72,13 @@ export default [
         price: 80,
         capacity: 1,
         pets: true,
-        images: room4,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room4,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "5",
@@ -61,7 +88,13 @@ export default [
         price: 100,
         capacity: 2,
         pets: false,
-        images: room5,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room5,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "6",
@@ -71,7 +104,13 @@ export default [
         price: 120,
         capacity: 2,
         pets: false,
-        images: room6,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room6,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "7",
@@ -81,7 +120,13 @@ export default [
         price: 120,
         capacity: 2,
         pets: false,
-        images: room7,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room7,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "8",
@@ -91,7 +136,13 @@ export default [
         price: 150,
         capacity: 2,
         pets: true,
-        images: room8,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room8,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "9",
@@ -101,7 +152,13 @@ export default [
         price: 180,
         capacity: 3,
         pets: false,
-        images: room9,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room9,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "10",
@@ -111,7 +168,13 @@ export default [
         price: 210,
         capacity: 3,
         pets: false,
-        images: room10,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room10,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "11",
@@ -121,7 +184,13 @@ export default [
         price: 250,
         capacity: 4,
         pets: true,
-        images: room11,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room11,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
     {
         id: "12",
@@ -131,6 +200,12 @@ export default [
         price: 260,
         capacity: 4,
         pets: false,
-        images: room12,
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        mainImg: room12,
+        img1: otherimg1,
+        img2: otherimg2,
+        img3: otherimg3,
     },
 ];

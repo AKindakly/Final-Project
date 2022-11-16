@@ -12,12 +12,12 @@ const ContactForm = () => {
                             <input type="text" placeholder="Your Name" />
                         </div>
                         <div className="contact-form-info-last">
-                            <input type="email" placeholde="Your Email" />
+                            <input type="email" placeholder="Your Email" />
                         </div>
                     </div>
 
                     <div className="contact-form-subject">
-                        <input type="text" placeholde="Subject" />
+                        <input type="text" placeholder="Subject" />
                     </div>
                     <div>
                         <div>

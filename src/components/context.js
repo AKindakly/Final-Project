@@ -30,12 +30,18 @@ class RoomProvider extends React.Component {
     formatData(items) {
         let tempItems = items.map((item) => {
             let id = item.id;
-            let images = item.images;
-            let room = { ...item, id, images };
+            let mainImg = item.mainImg;
+            let room = { ...item, id, mainImg };
             return room;
         });
         return tempItems;
     }
+
+    getRoom = (id) => {
+        let tempRooms = [...this.state.rooms];
+        const room = tempRooms.find((room) => room.id === id);
+        return room;
+    };
 
     handleChange = (event) => {
         const target = event.target;
