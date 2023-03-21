@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
-import { RoomProvider } from "./components/context.js";
+import { RoomProvider } from "./components/hotel/context";
 
 import "./styles/index.css";
 import App from "./App";

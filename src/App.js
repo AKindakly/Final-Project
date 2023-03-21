@@ -3,10 +3,10 @@ import { Route, Switch } from "react-router-dom";
 
 import Main from "./components/Main/Main";
 import AboutUs from "./components/AboutUs/AboutUs";
+import Rooms from "./components/Rooms/Rooms";
+import OneRoom from "./components/OneRoom/OneRoom";
 
-import Rooms from "./components/Rooms.jsx";
 import Contact from "./components/Contact.jsx";
-import OneRoom from "./components/OneRoom.jsx";
 
 const App = () => {
     return (

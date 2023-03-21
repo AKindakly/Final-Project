@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "../hif/Header/Header";
-import Intro from "../hif/Hero/Hero";
+import Hero from "../hif/Hero/Hero";
 import Footer from "../hif/Footer/Footer";
 import AboutUsBtn from "./AboutUsBtn";
 import AboutUsTxt from "./AboutUsTxt";
@@ -15,7 +15,7 @@ const AboutUs = () => {
                 <Header />
             </div>
             <div>
-                <Intro />
+                <Hero />
                 <AboutUsBtn />
                 <AboutUsTxt />
                 <AboutUsVid />
