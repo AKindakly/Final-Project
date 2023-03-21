@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-import Main from "./Main.jsx";
-import Rooms from "./Rooms.jsx";
-import Contact from "./Contact.jsx";
-import AboutUs from "./AboutUs.jsx";
-import OneRoom from "./OneRoom.jsx";
+import Main from "./components/Main/Main";
+import Rooms from "./components/Rooms.jsx";
+import Contact from "./components/Contact.jsx";
+import AboutUs from "./components/AboutUs.jsx";
+import OneRoom from "./components/OneRoom.jsx";
 
 const App = () => {
     return (

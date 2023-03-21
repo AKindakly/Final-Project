@@ -1,10 +1,10 @@
 import React from "react";
 import { withRoomConsumer } from "./context.js";
 
-import Logo from "./hif/header/Logo.jsx";
-import Nav from "./hif/header/Nav.jsx";
-import Intro from "./hif/intro/Intro.jsx";
-import Footer from "./hif/footer/Footer.jsx";
+import Header from "./hif/Header/Header";
+import Intro from "./hif/Hero/Hero";
+import Footer from "./hif/Footer/Footer";
+
 import SearchRooms from "./rooms-page/SearchRooms";
 import RoomsList from "./rooms-page/RoomsList";
 
@@ -14,11 +14,8 @@ const Rooms = ({ context }) => {
     return (
         <>
             <div>
-                <div className="site-header">
-                    <div className="header-cont">
-                        <Logo />
-                        <Nav />
-                    </div>
+                <div>
+                    <Header />
                 </div>
                 <div>
                     <Intro />

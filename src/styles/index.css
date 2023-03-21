@@ -118,9 +118,9 @@ a {
     transform: translateY(0) rotate(45deg);
 }
 
-/* ////////////////////// Intro Css //////////////////////*/
+/* ////////////////////// Hero Css //////////////////////*/
 .intro-big-cont {
-    background-image: url(../public/hotel2.jpg);
+    background-image: url(../assets/hero.jpg);
     object-fit: cover;
     min-height: 875px;
     width: 100%;
@@ -325,7 +325,7 @@ a {
     font-size: 24px;
 }
 
-/* ////////////////////// Photos Css //////////////////////*/
+/* ////////////////////// MainCarousel Css //////////////////////*/
 .RoomsPhotos {
     position: relative;
     background-color: #1a1a1a;
@@ -431,7 +431,7 @@ a {
 
 /* ////////////////////// Pool Css //////////////////////*/
 .pool {
-    background-image: url("../public/pool.jpg");
+    background-image: url("../assets/pool.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -667,7 +667,7 @@ a {
 
 /* ////////////////////// AboutUsVid Css //////////////////////*/
 .aboutus-vid {
-    background-image: url(../public/video.jpg);
+    background-image: url(../assets/video.jpg);
     position: relative;
     background-size: cover;
     min-height: 550px;

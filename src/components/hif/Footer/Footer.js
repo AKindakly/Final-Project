@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import "../../../index.css";
-
 const Footer = () => {
+    const [date, setDate] = useState(new Date());
+    setInterval(() => {
+        setDate(new Date());
+    }, 1000);
+
     return (
         <>
             <footer className="footer">
@@ -49,7 +52,10 @@ const Footer = () => {
                 </div>
                 <div className="footer-cont2">
                     <hr></hr>
-                    <p>Copyright &copy; All rights reserved 2022</p>
+                    <p>
+                        Copyright &copy; - {date.getFullYear()} All rights
+                        reserved
+                    </p>
                 </div>
             </footer>
         </>

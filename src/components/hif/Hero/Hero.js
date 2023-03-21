@@ -1,6 +1,6 @@
-import "../../../index.css";
+import React from "react";
 
-const Intro = () => {
+const Hero = () => {
     return (
         <section className="intro-big-cont">
             <div className="intro-txt">
@@ -11,4 +11,4 @@ const Intro = () => {
     );
 };
 
-export default Intro;
+export default Hero;

@@ -1,7 +1,7 @@
 import React from "react";
-import "../../index.css";
-
 import { useState } from "react";
+
+import restaurant from "../../assets/restaurant.jpg";
 
 const Restaurant = () => {
     const [is1Visible, setIs1Visible] = useState(false);
@@ -33,7 +33,7 @@ const Restaurant = () => {
     return (
         <section className="restaurant">
             <div className="restaurant-left-cont">
-                <img src="../restaurant.jpg" alt="" />
+                <img src={restaurant} alt="food-table inside hotel" />
             </div>
             <div className="restaurant-right-cont">
                 <div>

@@ -1,7 +1,21 @@
+import React from "react";
 import { useState } from "react";
-import "../../index.css";
 
-const RoomsPhotos = ({ slides }) => {
+import carousel1 from "../../assets/carousel1.jpg";
+import carousel2 from "../../assets/carousel2.jpg";
+import carousel3 from "../../assets/carousel3.jpg";
+import carousel4 from "../../assets/carousel4.jpg";
+import carousel5 from "../../assets/carousel5.jpg";
+
+const slides = [
+    { url: carousel1 },
+    { url: carousel2 },
+    { url: carousel3 },
+    { url: carousel4 },
+    { url: carousel5 },
+];
+
+const MainCarousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const goToPrevious = () => {
@@ -18,7 +32,7 @@ const RoomsPhotos = ({ slides }) => {
         setCurrentIndex(slideIndex);
     };
 
-    const url = `../${slides[currentIndex].url}`;
+    const url = `${slides[currentIndex].url}`;
 
     return (
         <section className="RoomsPhotos">
@@ -42,7 +56,7 @@ const RoomsPhotos = ({ slides }) => {
                 </div>
             </div>
             <div className="rooms-photos">
-                <img className="photo" src={url} alt="" />
+                <img className="photo" src={url} alt="hotel rooms" />
             </div>
             <div className="rooms-dots">
                 {slides.map((slide, slideIndex) => (
@@ -59,4 +73,4 @@ const RoomsPhotos = ({ slides }) => {
     );
 };
 
-export default RoomsPhotos;
+export default MainCarousel;

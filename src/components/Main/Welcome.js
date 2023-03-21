@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import "../../index.css";
+import welcome1 from "../../assets/welcome1.jpg";
+import welcome2 from "../../assets/welcome2.jpg";
 
 const Welcome = () => {
     return (
@@ -29,8 +29,8 @@ const Welcome = () => {
             </div>
 
             <div className="welcome-imgs-cont">
-                <img className="welcome-img1" src="../hotel3.jpg" alt="" />
-                <img className="welcome-img2" src="../hotel4.jpg" alt="" />
+                <img className="welcome-img1" src={welcome1} alt="" />
+                <img className="welcome-img2" src={welcome2} alt="" />
             </div>
         </section>
     );
