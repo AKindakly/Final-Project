@@ -1,5 +1,9 @@
 import React from "react";
 
+import staff1 from "../../assets/staff1.jpg";
+import staff2 from "../../assets/staff2.jpg";
+import staff3 from "../../assets/staff3.jpg";
+
 const AboutUsStaff = () => {
     return (
         <section>
@@ -20,17 +24,17 @@ const AboutUsStaff = () => {
             </div>
             <div className="aboutus-staff-cards">
                 <div className="aboutus-staff-cards-cont">
-                    <img src="../staff.webp" alt="" />
+                    <img src={staff1} alt="" />
                     <span>CEO, CO-FOUNDER</span>
                     <p>Max Example</p>
                 </div>
                 <div className="aboutus-staff-cards-cont">
-                    <img src="../staff.webp" alt="" />
+                    <img src={staff2} alt="" />
                     <span>HOTEL MANAGER</span>
                     <p>Sam Example</p>
                 </div>
                 <div className="aboutus-staff-cards-cont">
-                    <img src="../staff.webp" alt="" />
+                    <img src={staff3} alt="" />
                     <span>RECEPTION MANAGER</span>
                     <p>Sarah Example</p>
                 </div>

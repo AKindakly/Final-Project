@@ -1,4 +1,5 @@
 import React from "react";
+import playIcon from "../../assets/play.png";
 
 const AboutUsVid = () => {
     return (
@@ -11,7 +12,7 @@ const AboutUsVid = () => {
                     <h3>Galaxy Hotel Tour</h3>
                     <img
                         className="aboutus-vid-btn-sml"
-                        src="../play.png"
+                        src={playIcon}
                         alt=""
                     />
                 </a>

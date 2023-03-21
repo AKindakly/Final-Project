@@ -11,7 +11,7 @@ import Restaurant from "./Restaurant";
 import Pool from "./Pool";
 import Footer from "../hif/Footer/Footer";
 
-function Main() {
+const Main = () => {
     return (
         <>
             <div>
@@ -33,6 +33,6 @@ function Main() {
             </div>
         </>
     );
-}
+};
 
 export default Main;
