@@ -15,8 +15,6 @@ This is a responsive hotel website template built with React and styled with CSS
 
 -   **React.js** for building the user interface components and enabling the app's dynamic behavior
 
--   **Redux** for managing the app's state and enabling the implementation of complex features, such as real-time chat and friend requests.
-
 -   **React Context API** for managing application state and enabling the implementation of search functionality.
 
 
@@ -40,10 +38,12 @@ Please note that this is a demo version of the app and some features may be limi
 ## To-do
 - [ ] Implement mobile responsiveness.
 - [ ] Connect the website to a calendar API to enable a booking system.
-- [ ] Show if a friend is online
+- [ ] Create a stunning animation for the website using Framer Motion.
 
 ## Screenshots
 ![s1](https://github.com/AKindakly/Galaxy-Hotel_Website-Template/blob/main/src/assets/Untitled111.png?raw=true)
+<br />
+<br />
 <br />
 <br />
 <br />
