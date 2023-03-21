@@ -6,7 +6,7 @@ This is a responsive hotel website template built with React and styled with CSS
 -   Main page: Describes the hotel and its features, including the restaurant, pool, and spa.
 -   Contact page: Allows users to contact the hotel via a form.
 -   About us page: Provides information about the hotel's history and mission.
--   Room component: Allows users to search for a room and view details of individual rooms.
+-   Rooms page: Allows users to search for a room and view details of individual rooms.
 
 
 ## Technologies used:
