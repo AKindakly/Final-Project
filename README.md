@@ -24,10 +24,10 @@ To run the App on your local machine, you'll need to follow these steps:
 
 -   **Clone the repository:** First, clone the repository from GitHub to your local machine.
 
--   **Install dependencies:** Navigate to the root directory of the project in your terminal and ```run npm install```<br />
+-   **Install dependencies:** Navigate to the root directory of the project in your terminal and run ```npm install```<br />
  to install all the required dependencies.
 
--   **Start the App:** Run ```npm run dev``` to start the server.
+-   **Start the App:** Run ```npm start``` to start the server.
 
 Once the App is running, you can access the Social Network App by navigating to **http://localhost:3000** in your browser.
 
