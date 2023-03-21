@@ -121,8 +121,8 @@ a {
 /* ////////////////////// Intro Css //////////////////////*/
 .intro-big-cont {
     background-image: url(../public/hotel2.jpg);
-    background-size: cover;
-    min-height: 750px;
+    object-fit: cover;
+    min-height: 875px;
     width: 100%;
 }
 
