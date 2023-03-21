@@ -5,7 +5,7 @@ import Main from "./components/Main/Main";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Rooms from "./components/Rooms/Rooms";
 import OneRoom from "./components/OneRoom/OneRoom";
-import Contact from "./components/Contact/Contact.jsx";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
     return (
