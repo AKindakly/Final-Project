@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Galaxy Hotel_Website Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:
 
-## Available Scripts
+This is a responsive hotel website template built with React and styled with CSS. It includes the following pages:
+-   Main page: Describes the hotel and its features, including the restaurant, pool, and spa.
+-   Contact page: Allows users to contact the hotel via a form.
+-   About us page: Provides information about the hotel's history and mission.
+-   Room component: Allows users to search for a room and view details of individual rooms.
 
-In the project directory, you can run:
 
-### `npm start`
+## Technologies used:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   **HTML5** and **CSS3** for building the user interface and styling the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   **React.js** for building the user interface components and enabling the app's dynamic behavior
 
-### `npm test`
+-   **Redux** for managing the app's state and enabling the implementation of complex features, such as real-time chat and friend requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   **React Context API** for managing application state and enabling the implementation of search functionality.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation and Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the App on your local machine, you'll need to follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   **Clone the repository:** First, clone the repository from GitHub to your local machine.
 
-### `npm run eject`
+-   **Install dependencies:** Navigate to the root directory of the project in your terminal and ```run npm install```<br />
+ to install all the required dependencies.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   **Start the App:** Run ```npm run dev``` to start the server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once the App is running, you can access the Social Network App by navigating to **http://localhost:3000** in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Demo
+You can view a live demo of the Galaxy Hotel App at https://.com.<br />
+Please note that this is a demo version of the app and some features may be limited or disabled.<br />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## To-do
+- [ ] Implement mobile responsiveness.
+- [ ] Connect the website to a calendar API to enable a booking system.
+- [ ] Show if a friend is online
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Screenshots
+![s1](https://github.com/AKindakly/Galaxy-Hotel_Website-Template/blob/main/src/assets/Untitled111.png?raw=true)
+<br />
+<br />
+<br />
+![](https://github.com/AKindakly/Galaxy-Hotel_Website-Template/blob/main/src/assets/Untitled222.png)
