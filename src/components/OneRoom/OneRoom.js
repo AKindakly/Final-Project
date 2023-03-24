@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
-import { RoomContext } from "../hotel/context.js";
+import { useParams } from "react-router-dom";
+
+import { RoomContext } from "../hotel/context";
 
 import Header from "../hif/Header/Header";
 import Hero from "../hif/Hero/Hero";
@@ -8,7 +10,9 @@ import OneRoomBtn from "./OneRoomBtn";
 import OneRoomBook from "./OneRoomBook";
 
 const OneRoom = (props) => {
-    const { id } = props.match.params;
+    // const { id } = props.match.params;
+    const { id } = useParams();
+
     const { getRoom } = useContext(RoomContext);
     const room = getRoom(id);
     // console.log("room in OneRoom :", room);
