@@ -63,6 +63,7 @@ const RoomProvider = ({ children }) => {
         }
     };
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const filterRooms = () => {
         // all the rooms
         let tempRooms = [...rooms];
@@ -91,7 +92,7 @@ const RoomProvider = ({ children }) => {
 
     useEffect(() => {
         filterRooms();
-    }, [type, capacity, price, pets]);
+    }, [type, capacity, price, pets, filterRooms]);
 
     return (
         <RoomContext.Provider
