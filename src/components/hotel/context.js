@@ -63,10 +63,6 @@ const RoomProvider = ({ children }) => {
         }
     };
 
-    useEffect(() => {
-        filterRooms();
-    }, [type, capacity, price, pets]);
-
     const filterRooms = () => {
         // all the rooms
         let tempRooms = [...rooms];
@@ -92,6 +88,10 @@ const RoomProvider = ({ children }) => {
         // set state
         setSortedRooms(tempRooms);
     };
+
+    useEffect(() => {
+        filterRooms();
+    }, [type, capacity, price, pets]);
 
     return (
         <RoomContext.Provider
