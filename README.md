@@ -32,7 +32,7 @@ To run the App on your local machine, you'll need to follow these steps:
 Once the App is running, you can access the Social Network App by navigating to **http://localhost:3000** in your browser.
 
 ## Demo
-You can view a live demo of the Galaxy Hotel App at https://.com.<br />
+You can view a live demo of the Galaxy Hotel App at https://galaxy-hotel.netlify.app/<br />
 Please note that this is a demo version of the app and some features may be limited or disabled.<br />
 
 ## To-do
