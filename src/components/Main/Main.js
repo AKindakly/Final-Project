@@ -14,23 +14,18 @@ import Footer from "../hif/Footer/Footer";
 const Main = () => {
     return (
         <>
-            <div>
-                <Header />
+            <Header />
 
-                <div>
-                    <Hero />
-                    {/* <Checker /> */}
-                    <RoomsBtn />
-                    <Welcome />
-                    <Features />
-                    <MainCarousel />
-                    <Restaurant />
-                    <Pool />
-                </div>
-                <div>
-                    <Footer />
-                </div>
-            </div>
+            <Hero />
+            {/* <Checker /> */}
+            <RoomsBtn />
+            <Welcome />
+            <Features />
+            <MainCarousel />
+            <Restaurant />
+            <Pool />
+
+            <Footer />
         </>
     );
 };

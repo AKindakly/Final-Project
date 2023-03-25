@@ -8,7 +8,8 @@ const Nav = () => {
                 <input type="checkbox" />
                 <span></span>
                 <span></span>
-                <div className="menu">
+
+                <ol className="menu">
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -21,7 +22,7 @@ const Nav = () => {
                     <li>
                         <Link to="/contact">Contact</Link>
                     </li>
-                </div>
+                </ol>
             </div>
         </div>
     );

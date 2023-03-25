@@ -10,21 +10,17 @@ import AboutUsStaff from "./AboutUsStaff";
 
 const AboutUs = () => {
     return (
-        <div>
-            <div>
-                <Header />
-            </div>
-            <div>
-                <Hero />
-                <AboutUsBtn />
-                <AboutUsTxt />
-                <AboutUsVid />
-                <AboutUsStaff />
-            </div>
-            <div>
-                <Footer />
-            </div>
-        </div>
+        <>
+            <Header />
+
+            <Hero />
+            <AboutUsBtn />
+            <AboutUsTxt />
+            <AboutUsVid />
+            <AboutUsStaff />
+
+            <Footer />
+        </>
     );
 };
 

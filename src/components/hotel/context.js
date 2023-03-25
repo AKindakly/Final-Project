@@ -63,36 +63,37 @@ const RoomProvider = ({ children }) => {
         }
     };
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    const filterRooms = () => {
-        // all the rooms
-        let tempRooms = [...rooms];
-
-        // filter by type
-        if (type !== "All") {
-            tempRooms = tempRooms.filter((room) => room.type === type);
-        }
-
-        // filter by capacity
-        if (capacity !== 1) {
-            tempRooms = tempRooms.filter((room) => room.capacity >= capacity);
-        }
-
-        //filter by price
-        tempRooms = tempRooms.filter((room) => room.price <= price);
-
-        // filter by pets
-        if (pets) {
-            tempRooms = tempRooms.filter((room) => room.pets === true);
-        }
-
-        // set state
-        setSortedRooms(tempRooms);
-    };
-
     useEffect(() => {
+        const filterRooms = () => {
+            // all the rooms
+            let tempRooms = [...rooms];
+
+            // filter by type
+            if (type !== "All") {
+                tempRooms = tempRooms.filter((room) => room.type === type);
+            }
+
+            // filter by capacity
+            if (capacity !== 1) {
+                tempRooms = tempRooms.filter(
+                    (room) => room.capacity >= capacity
+                );
+            }
+
+            //filter by price
+            tempRooms = tempRooms.filter((room) => room.price <= price);
+
+            // filter by pets
+            if (pets) {
+                tempRooms = tempRooms.filter((room) => room.pets === true);
+            }
+
+            // set state
+            setSortedRooms(tempRooms);
+        };
+
         filterRooms();
-    }, [type, capacity, price, pets, filterRooms]);
+    }, [type, capacity, price, pets, rooms]);
 
     return (
         <RoomContext.Provider
